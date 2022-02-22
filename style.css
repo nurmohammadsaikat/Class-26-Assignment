@@ -1,0 +1,135 @@
+/* ******* COMMON CSS STRAT**** */
+
+h1,h2,h3,h4,h5,h6,body,p{
+    font-family: 'Spartan', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* ****COMMON CSS END*** */
+
+/* Text And Box Section Start */
+.text-and-box-section {
+    padding: 90px 0px;
+}
+
+.text-section {}
+.text-section h6 {
+    padding-bottom: 18px;
+    color: #5DB1F4;
+    text-transform: uppercase;
+}
+.text-section h2 {
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.text-section h2::after {
+    content: '';
+    top: 167px;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background-color: #5DB1F4;
+    position: absolute;
+}
+.text-section p {
+    line-height: 30px;
+}
+
+.p-p {
+    padding: 20px 0px;
+}
+
+.hover1:hover {
+background: rgba(225, 228, 230, 0.78);
+transition: all 0.5s;
+} 
+/* Text And Box Section End */
+
+/* News Section Start */
+.news-text {}
+.news-text h6 {
+    text-transform: uppercase;
+    color: #5DB1F4;
+    font-weight: 600;
+}
+.news-text h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+
+    position: relative;
+}
+.news-text h2::after {
+    content: "";
+    position: absolute;
+    top: 62px;
+    left: 239px;
+    width: 12%;
+    height: 2px;
+    background-color: rgb(93, 177, 244);
+}
+.news-text p {
+    font-weight: 500;
+    color: #606060;
+}
+/* News Section End */
+
+/* Card Section Start */
+.card-hading {
+    line-height: 30px;
+    font-weight: 600;
+}
+/* Card Section End */
+
+/* Footer Section Start */
+.footer-section {
+    background-color: #081828;
+    color: #B1B5C1;
+}
+
+.footer-icon img {
+    width: 200px;
+}
+
+.footer-text p {
+    line-height: 30px;
+    margin-top: 30px;
+}
+.footer-text ul {
+    list-style: none;
+    display: inline-block;
+}
+.footer-text ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.footer-text ul li i {
+    color: #fff;
+    font-size: 20px;
+    margin-left: -30px;
+}
+
+.footer-text-part1 {
+}
+.footer-text-part1 h3 {
+    color: #fff;
+    margin-left: 30px;
+    position: relative;
+}
+.footer-text-part1 h3::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 3px;
+    height: 74%;
+    background-color: #5DB1F4;
+}
+.footer-text-part1 p {
+    padding: 3px 15px;
+    margin-top: 25px;
+}
+/* Footer Section End */
